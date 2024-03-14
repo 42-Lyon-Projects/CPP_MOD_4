@@ -10,10 +10,8 @@ int main()
 		animalsArray[i] = new Cat();
 	for (int i = 5; i < 10; ++i)
 		animalsArray[i] = new Dog();
-
-	for (const AAnimal *animal: animalsArray)
-		animal->makeSound();
-
+	for (int i = 0; i < 10; ++i)
+		animalsArray[i] ->makeSound();
 
 	for (int i = 0; i < 5; ++i)
 	{

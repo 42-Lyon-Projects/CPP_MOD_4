@@ -1,5 +1,5 @@
 NAME = ABSTRACT-ANIMALS-BRAINS
-CFLAGS = -Wall -Wextra -Werror -g3 -MD
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -g3 -MD
 RM = @rm -rf
 CC = @c++
 DIR = @mkdir -p
